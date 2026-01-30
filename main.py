@@ -9,7 +9,7 @@ How to use:
 2. Press 'q' + Enter → quit
 3. Robot stops if you press X on PS4 controller.
 
-the thing uses bluetooth in this case, so it has to sleep and make sure 
+the thing uses bluetooth in this case, so it has to sleep and make sure frame rate/computation speed isn't too fast.
 """
 
 import os
@@ -62,7 +62,7 @@ CAMERA_PITCH_DEG  = 15.0
 CAMERA_HEIGHT     = 0.3                        
 ARROW_LENGTH_M    = 1                        
 
-ROBOT_HOST        = "moonshot5.local"           
+ROBOT_HOST        = "cane.local"           
 ROBOT_ON          = False                        
 
 #setup
